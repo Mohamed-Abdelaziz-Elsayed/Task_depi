@@ -1,0 +1,5 @@
+list_1=list(map(int,input().split()))
+list_2=list(map(int,input().split()))
+myset_1=set(list_1)
+myset_2=set(list_2)
+print(myset_1&myset_2)
